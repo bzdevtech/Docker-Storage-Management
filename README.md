@@ -46,7 +46,7 @@ Understand how bind mounts and Docker volumes work, how they preserve data, and 
 
 ## Exercise 1 — Working with a Bind Mount
 
-1. Create a directory named `bind-mount-lab` on the host machine.
+1. Create a directory named `bind-mount-test` on the host machine.
 2. Create a file named `message.txt` inside the directory. Write a short message and display its contents.
 3. Run an Alpine container with the host directory mounted at `/app`.
 4. Display the contents of `/app/message.txt` from inside the container.
