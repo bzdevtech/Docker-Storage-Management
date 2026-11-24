@@ -56,8 +56,8 @@ Understand how bind mounts and Docker volumes work, how they preserve data, and 
 ## Exercise 2 — Working with a Docker Volume
 
 1. Create a Docker volume.
-2. Run an Alpine container with the volume mounted at `/data`.
-3. Create a file named `message.txt` in `/data`. Write a message and display its contents.
+2. Run an Alpine container with the volume mounted at `/app`.
+3. Create a file named `message.txt` in `/app`. Write a message and display its contents.
 4. Exit the container and remove it, keeping the volume.
 5. Start a new Alpine container using the same volume.
 6. Verify that `message.txt` and its contents are still available.
